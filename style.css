@@ -1,0 +1,96 @@
+/* 全体設定 */
+body {
+  margin: 0;
+  font-family: "Arial", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* ヘッダー */
+header {
+  background-color: #1b2838; /* Steam風カラー */
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+/* ナビゲーション */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* 見出し */
+h2 {
+  border-left: 6px solid #1b2838;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+/* 文章 */
+p {
+  line-height: 1.8;
+}
+
+/* リスト */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* ゲーム画像 */
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+/* フッター */
+footer {
+  background-color: #1b2838;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+/* 目次リンク */
+ol li a {
+  color: #1b2838;
+  text-decoration: none;
+}
+
+ol li a:hover {
+  text-decoration: underline;
+}
